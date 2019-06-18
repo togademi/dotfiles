@@ -1,0 +1,70 @@
+[global_config]
+  enabled_plugins = TerminatorThemes, APTURLHandler, LaunchpadCodeURLHandler, LaunchpadBugURLHandler
+  suppress_multiple_term_dialog = True
+  title_inactive_bg_color = "#AB0F4D"
+  title_transmit_bg_color = "#F5166F"
+  title_transmit_fg_color = "#eeeeec"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = bf63452f-3b33-4dde-9ab1-403652bee28f
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 53:27
+      size = 1313, 704
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 653
+      ratio = 0.499235474006
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 352
+      ratio = 0.503576537911
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 348
+      ratio = 0.497854077253
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = Dark Pastel
+      type = Terminal
+      uuid = bf63452f-3b33-4dde-9ab1-403652bee28f
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = Dark Pastel
+      type = Terminal
+      uuid = ce6eae54-56c3-4563-a33c-8c47c6ac0a67
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = Dark Pastel
+      type = Terminal
+      uuid = 89bf6245-0f7c-4240-98fe-e5bb63942c3f
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = Dark Pastel
+      type = Terminal
+      uuid = a9d64d5d-c242-42c3-9008-d3bbf49281cd
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+  [[Dark Pastel]]
+    cursor_color = "#bbbbbb"
+    foreground_color = "#ffffff"
+    palette = "#000000:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#bbbbbb:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
