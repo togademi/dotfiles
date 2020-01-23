@@ -1,0 +1,6 @@
+<keymap version="1" name="GNOME copy" parent="Default for GNOME">
+  <action id="Debugger.RemoveAllBreakpoints">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+  <action id="EditorDeleteLine" />
+</keymap>
